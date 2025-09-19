@@ -65,6 +65,8 @@ def move_to_top():
 
 
 def move_to_bottom():
+    for x in range(400, 150, -5):
+        draw_boy(x, 50 + (x - 150) * 2)
     pass
 
 
@@ -83,9 +85,9 @@ def move_triangle():
 
 
 while True:
-    # move_rectangle()
+    move_rectangle()
     move_triangle()
-    # move_circle()
+    move_circle()
     break
     pass
 

@@ -58,7 +58,23 @@ def draw_boy(x: float, y: float):
     delay(0.01)
 
 
+def move_to_top():
+    pass
+
+
+def move_to_bottom():
+    pass
+
+
+def move_line():
+    pass
+
+
 def move_triangle():
+    print("Move triangle")
+    move_to_top()
+    move_to_bottom()
+    move_line()
     pass
 
 

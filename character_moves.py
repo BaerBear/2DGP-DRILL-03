@@ -58,9 +58,14 @@ def draw_boy(x: float, y: float):
     delay(0.01)
 
 
+def move_triangle():
+    pass
+
+
 while True:
+    # move_rectangle()
+    move_triangle()
     # move_circle()
-    move_rectangle()
     break
     pass
 

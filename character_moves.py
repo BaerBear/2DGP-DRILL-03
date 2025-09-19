@@ -86,9 +86,9 @@ def move_triangle():
 
 
 while True:
-    # move_rectangle()
+    move_rectangle()
     move_triangle()
-    # move_circle()
+    move_circle()
     break
     pass
 

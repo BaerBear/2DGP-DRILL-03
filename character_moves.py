@@ -67,14 +67,16 @@ def move_to_bottom():
 
 
 def move_line():
+    for x in range(150, 650, 5):
+        draw_boy(x, 50)
     pass
 
 
 def move_triangle():
     print("Move triangle")
+    move_line()
     move_to_top()
     move_to_bottom()
-    move_line()
     pass
 
 

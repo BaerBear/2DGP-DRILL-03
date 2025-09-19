@@ -59,6 +59,8 @@ def draw_boy(x: float, y: float):
 
 
 def move_to_top():
+    for x in range (650, 400, -5):
+        draw_boy(x, 50 - (x - 650) * 2)
     pass
 
 
